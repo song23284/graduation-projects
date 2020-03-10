@@ -1,0 +1,36 @@
+page-scoreadditionnumber {
+    .toolbar-background{
+        background-color: #FFC107;
+      }  
+    
+      strong,ion-icon{
+        color:black;
+      }
+
+      .listheader{
+        background-color:  #00796b;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+      .gridcontent{
+          text-align: center;
+          color: #00796b;
+          font-size: 16px;
+          margin: 0px;
+          padding: 0px;
+          
+      }
+/********/
+      .card-header{
+        background-color: map-get($colors, primary);
+        color: #fff;
+    }
+    .card-content {
+        padding: 0px 16px; 
+        max-height: 0px;
+    }
+
+
+}

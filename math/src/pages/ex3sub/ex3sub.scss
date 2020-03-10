@@ -1,0 +1,58 @@
+page-ex3sub {
+    .toolbar-title-md{
+        text-align: center;
+    }
+    .toolbar-background{
+        background-color: #00796b;
+    
+      } 
+    
+      .back-button,strong{
+          color: white;
+      } 
+
+    #true{
+        color: green;
+        font-size: 96px;
+    }
+    #false{
+        color: red;
+        font-size: 96px;
+    }
+    .item{
+        text-align: center;
+    }
+
+    ion-col{
+        color: #00796b;
+    }
+
+    .problem{
+        color: rgb(143, 132, 132);
+        font-size: 24px;
+        margin-top: 30px;
+
+     
+    }
+
+    .prob{
+        color:rgb(143, 132, 132);
+        font-size: 36px;
+        margin-top:50px;
+    }
+
+    .tf{
+        margin-top:100px; 
+    }
+
+   .date ion-col:nth-child(1){
+        text-align: left;
+        color: #00796b;
+    }
+
+    .date ion-col:nth-child(2){
+        text-align: right;
+        color: #00796b;
+    }
+
+}

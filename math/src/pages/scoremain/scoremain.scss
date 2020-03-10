@@ -1,0 +1,82 @@
+page-scoremain {
+
+    .toolbar-background{
+        background-color: #00796b;
+      }  
+      
+      strong,ion-icon{
+        color:white;
+      }
+
+    
+   ion-segment-button .ion-segment-button{
+    color:#00796b;
+}
+
+.segment-md-secondary .segment-button.segment-activated{
+
+    color:black;
+    border-color:#FFC107;
+    background-color: #FFC107;
+ 
+
+  
+}
+
+.segment-md-secondary .segment-button{           
+         color: black;
+         line-height: 3rem;
+         height: 30px;
+         border-bottom-width:0px;
+         font-size: 16px;
+}
+
+ion-segment{
+    border:#FFC107 2px solid;
+    border-radius: 10px; 
+}
+
+.listheader{
+    background-color:  #00796b;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 50px;
+  }
+  .gridcontent{
+      text-align: center;
+      color: #00796b;
+      font-size: 16px;
+      margin: 0px;
+      padding: 0px;
+      
+  }
+  #part1{
+    background-color: #00796b;
+  
+  }
+  .textlabel1{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+  .textlabel2{
+    font-size: 16px;
+  }
+
+  .item-button{
+    color:#00796b;
+  }
+
+  ion-list{
+      padding-top: 5px;
+  }
+  .seg2{
+    padding-top: 5px;
+  }
+
+  #part1,#part2{
+    height: 40px;
+  }
+}

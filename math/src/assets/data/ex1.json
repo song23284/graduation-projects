@@ -1,0 +1,61 @@
+[ 
+         
+    {   "No"         : "1",
+           "Question"   :
+                   {
+                       "operand1"       :   "13",
+                       "operator"      :   "+",
+                       "operand2"       :   "50"   
+                   },           
+           "answer"    :   "63",
+           "choice"    :  [60,61,62,63] ,
+           "type"      :   "บวกเลขไม่เกิน 10" 
+       },
+       {   "No"         : "2",
+           "Question"   :
+                   {
+                       "operand1"       :   "14",
+                       "operator"      :   "+",
+                       "operand2"       :   "26"   
+                   },           
+           "answer"    :   "40",
+           "choice"    :  [40,41,42,43] ,
+           "type"      :   "บวกเลขไม่เกิน 10" 
+       },
+       {   "No"         : "3",
+           "Question"   :
+                   {
+                       "operand1"       :   "54",
+                       "operator"      :   "+",
+                       "operand2"       :   "23"   
+                   },           
+           "answer"    :   "77",
+           "choice"    :  [77,67,57,47] ,
+           "type"      :   "บวกเลขไม่เกิน 10" 
+       },
+       {   "No"         : "4",
+           "Question"   :
+                   {
+                       "operand1"       :   "16",
+                       "operator"      :   "+",
+                       "operand2"       :   "35"   
+                   },           
+           "answer"    :   "51",
+           "choice"    :  [41,42,51,52] ,
+           "type"      :   "บวกเลขไม่เกิน 10" 
+       },
+       {   "No"         : "5",
+           "Question"   :
+                   {
+                       "operand1"       :   "16",
+                       "operator"      :   "+",
+                       "operand2"       :   "35"   
+                   },           
+           "answer"    :   "51",
+           "choice"    :  [41,42,51,52] ,
+           "type"      :   "บวกเลขไม่เกิน 10" 
+       }
+   ]
+
+
+      

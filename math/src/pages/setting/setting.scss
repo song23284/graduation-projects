@@ -1,0 +1,28 @@
+page-setting {
+    .toolbar-background{
+        background-color:#00796b;
+      }  
+      
+      strong,ion-icon,ion-label{
+        color: white;
+        
+      }
+
+      ion-label{
+        color: #00796b;
+      }
+      
+      .full-width{
+        border-radius: 0rem;
+      }
+
+      .toggle-md.toggle-checked .toggle-icon{
+        background-color: #fff59d;
+      }
+
+      .toggle-md.toggle-checked .toggle-inner{
+        background-color: #ffc107;
+      }
+
+     
+}

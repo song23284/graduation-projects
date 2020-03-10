@@ -1,0 +1,103 @@
+{
+  "name": "ionic3-start-theme",
+  "version": "0.1.0",
+  "author": "João Firmino <firminoata@gmail.com>",
+  "homepage": "https://github.com/ionictheme/ionic3-start-theme",
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "lint": "ionic-app-scripts lint",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
+  },
+  "dependencies": {
+    "@angular/common": "5.2.7",
+    "@angular/compiler": "5.2.7",
+    "@angular/compiler-cli": "5.2.7",
+    "@angular/core": "5.2.7",
+    "@angular/forms": "5.2.7",
+    "@angular/http": "5.2.7",
+    "@angular/platform-browser": "5.2.7",
+    "@angular/platform-browser-dynamic": "5.2.7",
+    "@angular/router": "^7.2.0",
+    "@ionic-native/core": "^4.19.0",
+    "@ionic-native/device": "^4.19.0",
+    "@ionic-native/facebook": "^4.19.0",
+    "@ionic-native/firebase": "^4.19.0",
+    "@ionic-native/in-app-browser": "^4.19.0",
+    "@ionic-native/keyboard": "^4.19.0",
+    "@ionic-native/native-storage": "^5.0.0-beta.23",
+    "@ionic-native/pro": "^4.19.0",
+    "@ionic-native/splash-screen": "^4.19.0",
+    "@ionic-native/status-bar": "^4.19.0",
+    "@ionic/angular": "^4.0.0-rc.1",
+    "@ionic/pro": "1.0.20",
+    "@ionic/storage": "2.1.3",
+    "@mobiscroll/angular-lite": "^4.5.2",
+    "@types/chart.js": "^2.7.42",
+    "@types/node": "^11.12.0",
+    "angularfire2": "^5.1.1",
+    "chart": "^0.1.2",
+    "chart.js": "^2.7.3",
+    "cordova-android": "6.4.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-console": "^1.1.0",
+    "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-facebook4": "4.0.0",
+    "cordova-plugin-firebase": "2.0.5",
+    "cordova-plugin-nativestorage": "2.3.2",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-statusbar": "^2.2.3",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "cordova-sqlite-storage": "^2.6.0",
+    "dateformat": "^3.0.3",
+    "firebase": "^5.8.2",
+    "firebase-admin": "^6.5.0",
+    "firebase-functions": "^2.1.0",
+    "googleapis": "^34.0.0",
+    "ionic": "^4.7.1",
+    "ionic-angular": "3.9.2",
+    "ionic-plugin-keyboard": "^2.2.1",
+    "ionicons": "3.0.0",
+    "ng2-charts": "^1.6.0",
+    "node-sass": "^4.11.0",
+    "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.18"
+  },
+  "devDependencies": {
+    "@angular/cli": "^7.3.2",
+    "@ionic/app-scripts": "^3.2.1",
+    "@ionic/lab": "1.0.15",
+    "@types/angular": "^1.6.54",
+    "typescript": "2.4.2"
+  },
+  "description": "Ionic 3 Start Theme",
+  "cordovaPlugins": [],
+  "cordovaPlatforms": [],
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-console": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-whitelist": {},
+      "ionic-plugin-keyboard": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-firebase": {},
+      "cordova-plugin-facebook4": {
+        "APP_ID": "255346632070481",
+        "APP_NAME": "ionic"
+      },
+      "cordova-plugin-nativestorage": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "config": {
+    "ionic_sass": "./sass.js"
+  }
+}

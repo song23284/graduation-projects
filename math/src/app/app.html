@@ -1,0 +1,55 @@
+<ion-menu side="left" id="authenticated" [content]="content">
+  <ion-header>
+    <ion-toolbar class="user-profile">
+
+      <ion-grid>
+        <ion-row>
+          <ion-col col-4>
+              <div class="user-avatar">
+                <!--<img src="../assets/img/avatar.jpeg">-->
+              </div>
+          </ion-col>
+          <ion-col padding-top col-8>
+            <h2 ion-text class="no-margin bold text-white">
+         <span ion-text  style="font-size:18px; font-weight: 0; color: black; ">{{displayname}}</span>
+            </h2>
+          </ion-col>
+        </ion-row>
+        <ion-row no-padding class="other-data">
+          <ion-col no-padding class="column">
+            <button ion-button icon-left small full  menuClose (click)="logout()">
+              <ion-icon name="log-out"></ion-icon>
+              Log Out
+            </button>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content >
+    <ion-item style=" margin: 10px 0px 0px 0px;height: 100px;">
+    <ion-list>
+      <button ion-item menuClose style="color: #00796b;" class="text-1x" *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">
+        <ion-icon item-left [name]="menuItem.icon" style="color:#FFC107;" ></ion-icon>
+        <span ion-text >{{menuItem.title}}</span>
+      </button>
+    </ion-list>
+  </ion-item>
+
+  <ion-item style="margin: 10px 0px 0px 0px; height: 175px;">
+      <ion-list >
+      <p style="margin:0px 0px 0px 15px;font-size:16px; color:#00796b;font-weight: 500;">แบบฝึกหัด</p>
+      <button ion-item menuClose style="color: #00796b;" class="text-1x" *ngFor="let menuItem of appExItem" (click)="openPage(menuItem)" no-lines>
+        <ion-icon item-left [name]="menuItem.icon" style="color:#FFC107;"></ion-icon>
+        <span ion-text >{{menuItem.title}}</span>
+      </button>
+    </ion-list>
+  </ion-item> 
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

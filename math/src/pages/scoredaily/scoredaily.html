@@ -1,0 +1,78 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title no-padding>
+        <strong>แบบฝึกหัดประจำวัน</strong>
+        </ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+  
+    <ion-list>
+        <ion-list-header class="listheader">
+            <ion-grid >
+              <ion-row>
+                <ion-col>
+                  วันที่
+                </ion-col>
+                <ion-col class="right">
+                    ข้อถูก
+                </ion-col>
+                <ion-col class="wrong">
+                    ข้อผิด
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-list-header>
+        <ion-item>
+            <ion-grid (click)="gotoProgess()" class="gridcontent">
+                <ion-row>
+                  <ion-col>
+                    20 พ.ย. 2561
+                  </ion-col>
+                  <ion-col class="right">
+                      10
+                  </ion-col>
+                  <ion-col class="wrong">
+                      5
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+        </ion-item>
+        <ion-item>
+            <ion-grid class="gridcontent">
+                <ion-row>
+                  <ion-col>
+                    21 พ.ย. 2561 
+                  </ion-col>
+                  <ion-col class="right">
+                      10
+                  </ion-col>
+                  <ion-col class="wrong">
+                      5
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+        </ion-item>
+        <ion-item>
+            <ion-grid class="gridcontent">
+                <ion-row>
+                  <ion-col>
+                      22 พ.ย. 2561
+                  </ion-col>
+                  <ion-col class="right">
+                      15
+                  </ion-col>
+                  <ion-col class="wrong">
+                      0
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+        </ion-item>
+    </ion-list>
+  
+  </ion-content>
+  

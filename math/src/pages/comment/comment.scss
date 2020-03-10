@@ -1,0 +1,35 @@
+page-comment {
+    .toolbar-background{
+        background-color: #FFC107;
+      } 
+
+      .back-button,strong{
+          color:black;
+      }
+
+      .item{
+          padding-top: 10px;
+      }
+      .tocomment{
+        border:2px solid #FFC107;
+        border-radius: 5PX;
+        padding-bottom: 5px;
+      }
+      .comment{
+          height: 350px;
+          border:2px solid #FFC107;
+          border-radius: 5PX;
+      }
+      .sendcomment{
+          height: 50px;
+          width: 100px;
+          font-size: 20px;
+          background-color: #FFC107;
+          color: black;
+      }
+
+      .btnsend{
+        margin-top: 15px;
+        text-align: center;
+      }
+}

@@ -1,0 +1,68 @@
+page-compare-exer3 {
+    #input{
+        border:solid 2px #00796b;
+    }
+
+
+
+    .Problem{
+        font-size:50px;
+        color:#00796b; 
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    
+    .toolbar-title-md{
+        text-align: center;
+    }
+
+    
+  .toolbar-background{
+    background-color: #00796b;
+  } 
+
+      .back-button,strong{
+          color: white;
+      } 
+
+      ion-col{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #score{
+        text-align: left;
+        color: #00796b;
+        font-size: 24px;
+    }
+
+    #time{
+        text-align: right;
+        color: #00796b;
+        font-size: 24px;
+    }
+
+    .bottonSelect{
+        width: 100%;
+        height: 50px;
+        font-size: 30px;   
+        background-color: #00796b;    
+    }
+
+    .Problem{
+        margin-top:40px;
+        margin-bottom: 70px;
+    }
+    
+    #alert-title{
+          text-align: center;
+    }
+
+    #alert-message{
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,94 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        <strong>ข้อมูลส่วนตัว</strong>
+      </ion-title>
+      <!--<ion-buttons end>
+        <button ion-button tappable (click)="presentNotifications($event)">
+          <ion-icon name="notifications"></ion-icon>
+        </button>
+        <button ion-button tappable >
+          <ion-icon name="cog"></ion-icon>
+        </button>
+      </ion-buttons>-->
+    </ion-navbar>
+  </ion-header>
+  
+  
+  <ion-content padding class="common-bg">
+    <ion-card class="full-width" no-margin margin-bottom>
+      <ion-card-content no-padding>
+  <ion-card>
+    <ion-card-content>
+        <div class="user-avatar">
+            <img src="../assets/img/logo.png">
+        </div>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-content>
+      ชื่อผู้ใช้
+       <!--  <ion-item>
+        <ion-input [(ngModel)]="myInputUsername"></ion-input>
+      </ion-item>
+      <button (click)="btnAddClicked()" ion-button>ADD</button>
+      <ion-list>
+        <ion-item *ngFor="let item of arrData; let i = index" (click)="delete(i)">
+          {{item.$value}}
+        </ion-item>
+      </ion-list>-->
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-content>
+      อิเมลล์
+       <!-- <ion-item>
+        <ion-input [(ngModel)]="myInputTel"></ion-input>
+      </ion-item>
+        <button (click)="btnAddClicked2()" ion-button>ADD</button>
+      <ion-list>
+        <ion-item *ngFor="let item of arrData; let i = index" (click)="delete(i)">
+          {{item.$value}}
+        </ion-item>
+      </ion-list>-->
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-content>
+      รหัสผ่าน
+       <!-- <ion-item>
+        <ion-input [(ngModel)]="myInputEmail"></ion-input>
+      </ion-item>
+      <button (click)="btnAddClicked3()" ion-button>ADD</button>
+      <ion-list>
+        <ion-item *ngFor="let item of arrData; let i = index" (click)="delete(i)">
+          {{item.$value}}
+        </ion-item>
+      </ion-list>-->
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-content>
+      ชั้น
+    </ion-card-content>
+  </ion-card>
+  
+  
+  
+      </ion-card-content>
+    </ion-card>
+    <ion-row no-padding class="other-data">
+        <ion-col no-padding class="column">
+          <button class="edit" ion-button icon-left small full menuClose >
+            <ion-icon name="log-out"></ion-icon>
+            Edit Profile
+          </button>
+        </ion-col>
+      </ion-row>
+      
+  </ion-content>
+  

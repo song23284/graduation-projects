@@ -1,0 +1,81 @@
+
+<ion-header>
+
+    <ion-navbar hideBackButton >
+      <ion-title>
+        <strong>แบบฝึกหัดที่ 4</strong>
+      </ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  <ion-content >
+      <ion-item no-lines class="date">
+          <ion-grid>
+              <ion-row>
+                <ion-col>
+                 Score : {{score}} 
+                </ion-col>
+                <ion-col>
+                  Time : {{start}}
+                  </ion-col>
+              </ion-row>
+          </ion-grid>
+      </ion-item>
+      
+      <ion-item *ngFor="let e of ex2" no-lines>
+          <p class="Problem" align="center">{{e.Question.Operand1}} {{e.Question.Operanddivide}} {{e.Question.Operand2}}</p> 
+      </ion-item>
+  
+  <div class="textb">
+  <p id="textinput" no-lines>{{result}}</p>
+  </div>
+      <ion-grid id="allbtn">
+          <ion-row>
+              <ion-col id="btn">
+                  <button ion-button  class="btn" (click)="btnclick('1')">1</button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button class="btn"  (click)="btnclick('2')">2</button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button class="btn" (click)="btnclick('3')">3</button>
+              </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col id="btn">
+                  <button ion-button  class="btn" (click)="btnclick('4')" >4</button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button  class="btn" (click)="btnclick('5')" >5</button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button  class="btn" (click)="btnclick('6')" >6</button>
+              </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col id="btn">
+                  <button ion-button class="btn" id="btnNum"(click)="btnclick('7')" >7</button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button class="btn" id="btnNum" (click)="btnclick('8')">8</button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button class="btn" id="btnNum" (click)="btnclick('9')">9</button>
+              </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col id="btn">
+                  <button  ion-button class="btn" (click)="btnclick('c')"><ion-icon name="md-backspace"></ion-icon></button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button class="btn" (click)="btnclick('0')">0</button>
+              </ion-col>
+              <ion-col id="btn">
+                  <button  ion-button class="btn" (click)="getanswer()" style="background-color: red;" ><ion-icon name="checkbox-outline"></ion-icon></button>
+              </ion-col>
+          </ion-row>
+      </ion-grid>
+  </ion-content>
+  
+  

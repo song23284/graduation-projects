@@ -1,0 +1,50 @@
+page-exercise {
+  
+    .border-bottom{
+        font-size: 30px;
+        background-color:white;
+        height: 140px;
+        margin-top:7px;
+        border-radius:0px; 
+      }
+
+      .particon{
+        text-align: center;
+        margin-top: 15%;
+        color:black;
+        font-size: 35px;
+      }
+
+      .textlabel{
+        font-size: 20px;
+        color: black;    
+        text-align: center;
+        margin-top: 15%;
+      }
+      
+      .toolbar-background{
+        background-color:#00897b;
+  
+      } 
+    
+      strong, .back-button{
+        color:white;
+      }
+   
+      .exer{
+        border-radius:25px; 
+      }
+ 
+      ion-card{
+        margin-left:20px;
+
+      }
+
+      .row{
+        margin: 5px;
+      }
+      .col{
+       height: 150px;;
+      }
+      
+    }

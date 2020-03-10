@@ -1,0 +1,35 @@
+page-multiplies {
+    .border-bottom{
+        height: 40px;
+        align-items:center;
+        
+    }
+
+    .select-content{
+        font-size: 20px;
+        margin-top:25px; 
+
+        
+    }
+
+    ion-card{
+        border-top:8px solid  #FFC107;      
+    }
+  .full-width{
+    border-radius: 0rem;
+  }
+
+  .toolbar-background{
+    background-color: #00796b;
+
+  } 
+
+  .back-button,strong{
+      color: white;
+  } 
+  .part{
+      color: black;
+     // background-color:#FFC107; 
+  }
+
+}

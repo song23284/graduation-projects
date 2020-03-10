@@ -1,0 +1,39 @@
+page-login,
+.login {
+    
+    .btnlogin{
+        background-color: #00796b;
+    }
+
+    .btnlogin:hover{
+        background-color: #48a999;
+    }
+
+    .Signup{
+        color: #00796b;
+        font-size:35px;
+        margin: 0px 20px 0px 20px;
+    }
+    ion-item,h2,P,ion-input{
+        color:#00796b;
+
+    }
+
+    .text-primary{
+          color:#00796b;
+    }
+    
+    .parent{
+        margin-top:20px;
+        text-align: center;
+    }
+
+    .btnparent{
+        background-color: #FFC107;
+        color: black;
+    }
+
+    .btnparent:hover{
+        color: white;
+    }
+}

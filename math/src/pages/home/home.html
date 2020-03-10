@@ -1,0 +1,46 @@
+<!-- -->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <strong>Math</strong>
+      
+    </ion-title>
+    <!--<ion-buttons end>
+      <button ion-button tappable (click)="presentNotifications($event)">
+        <ion-icon name="notifications"></ion-icon>
+      </button>
+      <button ion-button tappable >
+        <ion-icon name="cog"></ion-icon>
+      </button>
+    </ion-buttons>-->
+  </ion-navbar>
+</ion-header>
+
+<ion-content id="content" padding class="animated fadeIn common-bg">
+
+  
+  <ion-card no-margin margin-bottom class="full-width" >
+  <ion-item tappable (click)="chooseTest()" class="border-bottom" icon-start outline>
+    <ion-icon id="icon" name="ios-school-outline"></ion-icon> 
+    แบบฝึกหัดทดสอบ
+  </ion-item>
+  </ion-card>
+
+  <ion-card no-margin margin-bottom class="full-width">
+  <ion-item tappable (click)=" chooseexercise()" class="border-bottom" icon-start>
+      <ion-icon id="icon" name="ios-school-outline"></ion-icon>    
+    แบบฝึกหัดเลือกเอง
+  </ion-item>
+  </ion-card>
+  
+  <ion-card no-margin margin-bottom class="full-width">
+  <ion-item tappable (click)="choosedaily()" class="border-bottom" icon-start>
+  <ion-icon id="icon" name="ios-school-outline"></ion-icon>
+     แบบฝึกหัดประจำวัน
+  </ion-item>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,32 @@
+page-viewmessage {
+
+    strong,ion-icon{
+        color: black;
+      
+    }
+
+    ion-navbar .toolbar-background{
+        background-color: #FFC107;
+    }
+
+    .from , .message , {
+        display: block;
+        width: 100%;
+        color: black;
+        font-size:18px;
+        padding: 8px;
+        
+    } 
+
+    .FabBTN{
+        background-color: #00796b;
+   }
+
+   .iconfab{
+       color: white;
+       font-size: 30px;
+   }
+
+
+
+}

@@ -1,0 +1,51 @@
+
+<ion-header>
+
+    <ion-navbar hideBackButton  >
+      <ion-title>
+        <strong>แบบฝึกหัดที่ 5</strong>
+      </ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  <ion-content padding>
+      <ion-item no-lines>
+          <ion-grid >
+              <ion-row class="date">
+                <ion-col>
+                  Score : {{score}}
+                </ion-col>
+                <ion-col>
+                  Time : {{start}}
+                  </ion-col>
+              </ion-row>
+          </ion-grid>
+      </ion-item>
+     
+      <ion-item  no-lines>
+        <p class="problem">ข้อต่อไปนี้ถูก หรือ ผิด</p>
+      </ion-item >  
+      <ion-item *ngFor="let e of ex3" no-lines>
+        <p class="prob" >{{e.Question.Operand1}} {{e.Question.Operandmultiplication}} {{e.Question.Operand2}} = {{e.Question.equal}}</p>
+      </ion-item> 
+  
+    <ion-item no-lines>  
+    <ion-grid class="tf">
+    <ion-row>
+    <ion-col>
+    <div>
+      <ion-icon id="false" name="md-close-circle" (click)="clicked('False')"></ion-icon>
+    </div>
+    </ion-col>
+    <ion-col>
+    <div>
+        <ion-icon id="true" name="md-checkmark-circle" (click)="clicked('True')"></ion-icon>
+    </div>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+  </ion-item>
+  
+  </ion-content>
+  

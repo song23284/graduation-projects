@@ -1,0 +1,73 @@
+<!--
+  Generated template for the ScorePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <strong>คะแนน</strong>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card no-margin margin-bottom class="full-width">
+      <div >
+          <ion-item  tappable ID="part1" class="border-bottom" >
+              <p class="textlabel1">จำนวนนับ</p>
+          </ion-item>
+      </div>
+      <div>
+        <ion-item  tappable class="border-bottom">
+            <p class="textlabel2">progress : </p>
+            <button ion-button clear (click)="scorecountnumber()" item-end>View</button>
+        </ion-item>
+      </div>
+  </ion-card >
+
+  <ion-card no-margin margin-bottom class="full-width">
+    <div >
+      <ion-item  tappable ID="part1" class="border-bottom" >
+          <p class="textlabel1">การบวก</p>
+      </ion-item>
+  </div>
+  <div>
+    <ion-item  tappable class="border-bottom">
+        <p class="textlabel2">progress : </p>
+    </ion-item>
+  </div>
+  </ion-card>
+
+  <ion-card no-margin margin-bottom class="full-width">
+    <div >
+      <ion-item  tappable ID="part1" class="border-bottom" >
+          <p class="textlabel1">การลบ</p>
+      </ion-item>
+  </div>
+  <div>
+    <ion-item  tappable class="border-bottom">
+        <p class="textlabel2">progress : </p>
+    </ion-item>
+  </div>
+  </ion-card>
+
+  <ion-card no-margin margin-bottom class="full-width">
+    <div >
+      <ion-item  tappable ID="part1" class="border-bottom" >
+          <p class="textlabel1">ความสัมพันธ์และรูปแบบ</p>
+      </ion-item>
+  </div>
+  <div>
+    <ion-item  tappable class="border-bottom">
+        <p class="textlabel2">progress : </p>
+    </ion-item>
+  </div>
+  </ion-card>
+
+</ion-content>

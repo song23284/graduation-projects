@@ -1,0 +1,36 @@
+page-count-number-1 {
+        .border-bottom{
+            height: 40px;
+            align-items:center;
+            
+        }
+
+        .select-content{
+            font-size: 20px;
+            margin-top:25px;
+
+        }
+        ion-card{
+            border-top:8px solid  #FFC107; 
+        }
+
+      .full-width{
+        border-radius: 0rem;
+        height: 80;    
+      }
+
+      .toolbar-background{
+        background-color: #00796b;
+  
+      } 
+
+      .back-button,strong{
+          color: white;
+      } 
+
+      .part{
+        color: black;
+      //  background-color: #FFC107;
+    }
+        
+}

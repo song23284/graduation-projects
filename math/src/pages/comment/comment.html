@@ -1,0 +1,24 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <strong>แสงความคิดเห็น</strong>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-item  class="toment" no-lines>
+        <ion-label>ถึง : </ion-label> 
+        <ion-input class="tocomment" type="text" placeholder="คุรครูอังศุมาลี" id="to"[(ngModel)]="reciever"></ion-input>
+    </ion-item>
+  <ion-item no-lines>
+      <ion-input class="comment" type="text" id="comment" placeholder="แสดงความคิดเห็น" [(ngModel)]="comment"></ion-input>
+  </ion-item>
+ 
+  <div class="btnsend">
+  <button ion-button class="sendcomment" (click)="send()" no-lines>send</button>
+  </div>
+</ion-content>

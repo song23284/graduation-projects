@@ -1,0 +1,74 @@
+<!--
+  Generated template for the DailyPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+  <ion-header>
+
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu" style="color:white"></ion-icon>
+      </button>
+      <ion-title>
+        <strong>แบบฝึกหัดประจำวัน</strong>
+      </ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-content padding>
+        <ion-segment [(ngModel)]="segment" color="secondary" >
+                <ion-segment-button no-border-right value="seg1">
+                    ทำแล้ว
+                </ion-segment-button>
+                <ion-segment-button value="seg2">
+                    ยังไม่ทำ
+                </ion-segment-button>
+              </ion-segment>
+        
+              <!--Segment 1 about recent exercise-->
+            <div [ngSwitch]="segment">
+                <ion-list *ngSwitchCase="'seg1'">
+                    <ion-item>
+                      <div class="text">
+                        เรื่อง : การบวก
+                      </div>
+                      <div class="text1">
+                          วันที : 12 พฤศจิกายน 2561, 14.30
+                      </div>  
+                    </ion-item>
+                    <ion-item>
+                        <div class="text">
+                          เรื่อง : การบวก
+                        </div>
+                        <div class="text1">
+                            วันที : 11 พฤศจิกายน 2561, 14.30
+                        </div>  
+                      </ion-item>
+                </ion-list>
+        
+                <!--Segment 2 about past exercise -->
+                <ion-list *ngSwitchCase="'seg2'">
+                    <ion-item>
+                        <div class="text">
+                          เรื่อง : การบวก
+                        </div>
+                        <div class="text1">
+                            วันที : 11 พฤศจิกายน 2561, 14.30
+                        </div>  
+                      </ion-item>
+                      <ion-item>
+                          <div class="text">
+                            เรื่อง : การบวก
+                          </div>
+                          <div class="text1">
+                              วันที : 10 พฤศจิกายน 2561, 15.30
+                          </div>  
+                        </ion-item>
+                </ion-list>
+              </div>
+     
+</ion-content>

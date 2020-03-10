@@ -1,0 +1,62 @@
+<ion-header>
+
+    <ion-navbar hideBackButton >
+      <ion-title>
+        <strong>แบบฝึกหัดที่ 2</strong>
+      </ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  <ion-content padding>
+      <ion-item no-lines class="date">
+          <ion-grid>
+              <ion-row>
+                <ion-col >
+                    <ion-item style="padding:0px;"> Score : {{score}}</ion-item> 
+                </ion-col>
+                <ion-col>
+                     <ion-item style="padding:0px;">Time : {{start}}</ion-item>
+                  </ion-col>
+              </ion-row>
+          </ion-grid>
+      </ion-item>
+      
+      <ion-item *ngFor="let e of ex1" no-lines>
+          <p id = "wasin" class="Problem" align="center">{{e.Question.Operand1}} {{e.Question.Operanddivide}} {{e.Question.Operand2}}</p> 
+      </ion-item>
+    
+          <ion-grid>
+              <ion-row>
+                  <ion-col *ngFor="let e of ex1">
+                      <button ion-button tappable   class="bottonSelect" id="test1" (click)="onSelect1()">
+                         {{e.Choice[0]}}
+                       </button>
+                  </ion-col>
+                  <ion-col *ngFor="let e of ex1">
+                      <button ion-button  tappable  class="bottonSelect"  id="test2" (click)="onSelect2()">
+                          {{e.Choice[1]}}
+                       </button>
+                  </ion-col>
+              </ion-row>
+  
+              <ion-row>
+                  <ion-col *ngFor="let e of ex1">
+                      <button ion-button tappable   class="bottonSelect" id="test3" (click)="onSelect3()">
+                          {{e.Choice[2]}}
+                       </button>
+                  </ion-col>
+                  <ion-col *ngFor="let e of ex1">
+                      <button ion-button  tappable  class="bottonSelect" id="test4" (click)="onSelect4()">
+                          {{e.Choice[3]}}
+                       </button>
+                  </ion-col>
+              </ion-row>
+          </ion-grid>
+  
+  
+  
+  </ion-content>
+  
+  
+  

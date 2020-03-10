@@ -1,0 +1,67 @@
+page-pattern1-exer1 {
+
+    #answer{
+        text-align: center;
+    }
+    .problem{
+        color: rgb(143, 132, 132);
+        font-size: 24px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    
+  .toolbar-background{
+    background-color: #00796b;
+  } 
+
+      .back-button,strong{
+          color: white;
+      } 
+
+      .date{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .date:nth-child(1){
+        text-align: left;
+        color: #00796b;
+    }
+
+    .date:nth-child(2){
+        text-align: right;
+        color: #00796b;
+    }
+
+    .bottonSelect{
+        width: 70%;
+        height: 100px;
+        font-size: 20px;   
+        background-color: #FFC107;    
+    }
+    .choice{
+        width: 100%;
+
+    }
+  .img{
+      text-align: center;
+      padding:10
+  }
+
+  img{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+
+ .btnchoice{
+      background-color: #FFC107;
+      height: 180px;
+
+  }
+
+  
+ 
+
+}

@@ -1,0 +1,24 @@
+page-profileparent {
+    .toolbar-background{
+        background-color: #ffc107;
+      }  
+      
+      strong,ion-icon{
+        color:black;
+      }
+    
+      ion-card-content{
+          color: black;
+     }
+    
+     .column button{
+       background-color: #ffc107;
+       font-size: 18px;
+       border-radius:10px; 
+     }
+
+     .edit{
+       color: black;
+     }
+
+}

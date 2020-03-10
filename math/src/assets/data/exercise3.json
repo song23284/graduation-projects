@@ -1,0 +1,122 @@
+[
+    {
+    "No"    : "1",
+    "Question"  :   {
+        "operand1"  :   "3",
+        "operator"  :   "+",
+        "operand2"  :   "2",
+        "equal"     :   "=",
+        "operand3"  :   "6"
+
+    },
+    "answer"    :   "false"
+},
+{
+    "No"    : "2",
+    "Question"  :   {
+        "operand1"  :   "7",
+        "operator"  :   "+",
+        "operand2"  :   "3",
+        "equal"     :   "=",
+        "operand3"  :   "10"
+
+    },
+    "answer"    :   "true"
+},
+{
+    "No"    : "3",
+    "Question"  :   {
+        "operand1"  :   "4",
+        "operator"  :   "+",
+        "operand2"  :   "1",
+        "equal"     :   "=",
+        "operand3"  :   "5"
+
+    },
+    "answer"    :   "true"
+},
+{
+    "No"    : "4",
+    "Question"  :   {
+        "operand1"  :   "1",
+        "operator"  :   "+",
+        "operand2"  :   "1",
+        "equal"     :   "=",
+        "operand3"  :   "2"
+
+    },
+    "answer"    :   "true"
+},
+{
+    "No"    : "5",
+    "Question"  :   {
+        "operand1"  :   "3",
+        "operator"  :   "+",
+        "operand2"  :   "3",
+        "equal"     :   "=",
+        "operand3"  :   "9"
+
+    },
+    "answer"    :   "false"
+},
+{
+    "No"    : "6",
+    "Question"  :   {
+        "operand1"  :   "4",
+        "operator"  :   "+",
+        "operand2"  :   "2",
+        "equal"     :   "=",
+        "operand3"  :   "8"
+
+    },
+    "answer"    :   "false"
+},
+{
+    "No"    : "7",
+    "Question"  :   {
+        "operand1"  :   "3",
+        "operator"  :   "+",
+        "operand2"  :   "3",
+        "equal"     :   "=",
+        "operand3"  :   "6"
+
+    },
+    "answer"    :   "true"
+},
+{
+    "No"    : "8",
+    "Question"  :   {
+        "operand1"  :   "4",
+        "operator"  :   "+",
+        "operand2"  :   "5",
+        "equal"     :   "=",
+        "operand3"  :   "9"
+
+    },
+    "answer"    :   "true"
+},
+{
+    "No"    : "9",
+    "Question"  :   {
+        "operand1"  :   "4",
+        "operator"  :   "+",
+        "operand2"  :   "1",
+        "equal"     :   "=",
+        "operand3"  :   "4"
+
+    },
+    "answer"    :   "false"
+},
+{
+    "No"    : "10",
+    "Question"  :   {
+        "operand1"  :   "9",
+        "operator"  :   "+",
+        "operand2"  :   "0",
+        "equal"     :   "=",
+        "operand3"  :   "0"
+
+    },
+    "answer"    :   "false"
+}
+]

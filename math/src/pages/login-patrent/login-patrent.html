@@ -1,0 +1,55 @@
+<!-- -->
+<ion-content padding class="animated fadeIn login auth-page">
+  <div class="login-content">
+
+    <!-- Logo -->
+    <div padding-horizontal text-center class="animated fadeInDown">
+      <div class="logo"></div>
+      <h2 ion-text class="text-primary">
+        <strong>MATH</strong>
+      </h2>
+    </div>
+    <!-- Login form -->
+    <form class="list-form">
+      <ion-item>
+        <ion-label class="input" floating>
+          <ion-icon name="mail" item-start class="text-primary"  style="color:#FFC107;;"></ion-icon>
+          อีเมลล์
+        </ion-label>
+        <ion-input type="mail" [(ngModel)]="email" name="something"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label class="input" floating>
+          <ion-icon name="lock" item-start class="text-primary"  style="color:#FFC107;;"></ion-icon>
+          รหัสผ่าน
+        </ion-label>
+        <ion-input type="password" [(ngModel)]="password" name="something" ></ion-input>
+      </ion-item>
+    </form>
+
+    <p text-right ion-text class="forgorpassword"  tappable (click)="forgotPass()"><strong>ลืมรหัสผ่าน?</strong></p>
+
+    <div>
+      <button ion-button icon-start block  tappable class="btnloginP" (click)="Login()">
+        <ion-icon class="icon-login" name="log-in"></ion-icon>
+        เข้าสู่ระบบ
+      </button>
+
+    </div>
+
+
+     <!-- Other links -->
+     <div text-center margin-top>
+      <ion-icon class="Signup" tappable name="md-person-add"  style="color:#FFC107;;"  (click)="register()"></ion-icon>
+      <ion-icon class="Signup" tappable name="logo-googleplus" style="color:#DC4E41;" ></ion-icon>
+    </div>
+
+      <!--swich-->
+      <div class="Stu">
+          <button class="btnStu" ion-button (click)="switchstu()">Student Mode</button>
+        </div>
+
+  </div>
+  
+</ion-content>

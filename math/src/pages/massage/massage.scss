@@ -1,0 +1,70 @@
+page-massage {
+
+      
+      strong,ion-icon{
+        color: black;
+      
+    }
+
+    ion-navbar .toolbar-background{
+        background-color: #FFC107;
+    }
+
+    ion-toolbar .toolbar-background{
+        background-color:black;
+        border-radius:10px; 
+    }
+    .segment-button .segment-activated {
+        color: #00796b;
+    }
+    .iconlist{
+        color: #00796b;
+    }
+
+
+    .FabBTN{
+        background-color: #00796b;
+   }
+
+   .iconfab{
+       color: white;
+       font-size: 30px;
+   }
+
+   div{
+       color: #00796b;
+   }
+
+   ion-grid{
+       text-align: center;
+   }
+
+   ion-segment-button .ion-segment-button{
+       color:#00796b;
+   }
+
+   .segment-md-secondary .segment-button.segment-activated{
+       color:black;
+       border-color:#FFC107;
+       background-color: #FFC107;
+    
+
+     
+   }
+
+   .segment-md-secondary .segment-button{           
+            color: black;
+            line-height: 3rem;
+            height: 30px;
+            border-bottom-width:0px;
+   }
+
+   ion-segment{
+       border:#FFC107 2px solid;
+       border-radius: 10px; 
+   }
+
+
+
+
+}

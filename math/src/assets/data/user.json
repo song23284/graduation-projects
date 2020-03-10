@@ -1,0 +1,27 @@
+{
+    "F3QmvnmqEWhl0eArxvPenRUZadD3" : {
+      "email" : "parent@test.com",
+      "name" : "parent",
+      "password" : "12345678",
+      "status" : "parent"
+      
+    },
+    "aJkREIDv8HTep3DQup9FtG9kHEW2" : {
+      "email" : "wannisa@test.com",
+      "name" : "wannisa promboot",
+      "password" : "12345678",
+      "status" : "student"
+    },
+    "aJkREIDv8HTep3DQup9FtG9kHEW1" : {
+      "email" : "sopon@test.com",
+      "name" : "sopon ",
+      "password" : "12345678",
+      "status" : "student"
+    },
+    "aJkREIDv8HTep3DQup9FtG9kHEW3" : {
+      "email" : "surachai@test.com",
+      "name" : "surachai pimsalee",
+      "password" : "12345678",
+      "status" : "parent"
+    }
+  }

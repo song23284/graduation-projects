@@ -1,0 +1,90 @@
+page-ex2sub {
+    
+    .toolbar-title-md{
+        text-align: center;
+    }
+    
+    .Problem{
+        font-size:60px;
+        color:#00796b; 
+        height: 80px;
+        padding-top:20px;
+    }
+
+    ion-input{
+        border:2px solid black;
+        background-color: white;
+        height: 60px;   
+
+    } 
+    /*.text-input-md{
+        text-align: center;
+        font-size: 30px;
+        color:#00796b;
+    }*/
+
+    .textb{
+        margin-top:3
+        0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px; 
+        align-content: center;
+        text-align: center;
+     
+    }  
+    
+    #textinput{
+        font-size: 30px;
+        color:#00796b;
+        border: gray solid;
+        height: 50px;
+        padding-top:5px;
+    }
+    .allbtn{
+        margin-top: 50px;
+    }
+
+    .toolbar-background,.btn{
+        background-color: #00796b;
+    
+      } 
+  
+   #btn{
+       text-align: center;
+   }  
+     
+      .btn{
+          font-size: 25px;
+          height: 50px;
+          width: 100px;
+        
+      }
+  
+
+      .btn:hover{
+          background-color: #48a999;
+      }
+    
+      .back-button,strong{
+          color: white;
+      } 
+
+      ion-col{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    ion-col:nth-child(1){
+        text-align: left;
+        color: #00796b;
+    }
+
+    ion-col:nth-child(2){
+        text-align: right;
+        color: #00796b;
+    }
+
+
+}
