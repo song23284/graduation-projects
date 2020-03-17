@@ -1,0 +1,81 @@
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+<script>
+
+    window.onload = function () {
+
+    //Better to construct options first and then pass it as a parameter
+    var options = {
+      animationEnabled: true,  	
+      title:{
+        text: "อัตราการถูกของแต่ละข้อในแบบฝึกหัด"
+      },
+      axisY: {
+        suffix: "%"
+      },
+      toolTip: {
+        shared: true,
+        reversed: true
+      },
+      legend: {
+        reversed: true,
+        verticalAlign: "center",
+        horizontalAlign: "right"
+      },
+      data: [
+      {
+        type: "stackedColumn100",
+        name: "ถูก",
+        showInLegend: true,
+        yValueFormatString: "#,##0\"%\"",
+        dataPoints: [
+        { label: "ข้อ 1", y: 1 },
+        { label: "ข้อ 2", y: 2 },
+        { label: "ข้อ 3", y: 3 },
+        { label: "ข้อ 4", y: 4 },
+        { label: "ข้อ 5", y: 5 },
+        { label: "ข้อ 6", y: 6 },
+        { label: "ข้อ 7", y: 7 },
+        { label: "ข้อ 8", y: 8 },
+        { label: "ข้อ 9", y: 9 },
+        { label: "ข้อ 10", y: 10 },
+        { label: "ข้อ 11", y: 11 },
+        { label: "ข้อ 12", y: 12 },
+        { label: "ข้อ 13", y: 13 },
+        { label: "ข้อ 14", y: 14 },
+        { label: "ข้อ 15", y: 15 },
+        ]
+      },
+      
+      {
+        type: "stackedColumn100",
+        name: "ผิด",
+        showInLegend: true,
+        yValueFormatString: "#,##0\"%\"",
+        dataPoints: [
+        { label: "ข้อ 1", y: 15 },
+        { label: "ข้อ 2", y: 14 },
+        { label: "ข้อ 3", y: 13 },
+        { label: "ข้อ 4", y: 12 },
+        { label: "ข้อ 5", y: 11 },
+        { label: "ข้อ 6", y: 10 },
+        { label: "ข้อ 7", y: 9 },
+        { label: "ข้อ 8", y: 8 },
+        { label: "ข้อ 9", y: 7 },
+        { label: "ข้อ 10", y: 6 },
+        { label: "ข้อ 11", y: 5 },
+        { label: "ข้อ 12", y: 4 },
+        { label: "ข้อ 13", y: 3 },
+        { label: "ข้อ 14", y: 2 },
+        { label: "ข้อ 15", y: 1 },
+        ]
+      }
+      ]
+    };
+
+    $("#chartContainer").CanvasJSChart(options);
+    }
+
+  </script>

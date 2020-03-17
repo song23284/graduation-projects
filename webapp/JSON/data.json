@@ -1,0 +1,148 @@
+{
+    "USER":[
+        {
+            "ID"    :   "1",
+            "Firstname" :   "wannisa",
+            "Lastname"  :   "Promboot",
+            "email"     :  "58030218@kmitl.com",
+            "status"    :  "student"
+        },
+        {
+            "ID"    :   "2",
+            "Firstname" :   "wan",
+            "Lastname"  :   "boot",
+            "email"     :  "58030218@kmitl.com",
+            "status"    :  "Teacher"
+        }
+    ],
+    "Exercise":[
+        {
+            "level1":[
+                {
+                    "add":[
+                        {
+                            "No"    : "1",
+                            "Question"  :   {
+                                "operand1"  :   "13",
+                                "operator"  :   "+",
+                                "operand2"  :   "50"
+                            },
+                            "answer"    :   "63",
+                            "Choice"    :   [60,61,62,63]
+                        },
+                        {
+                            "No"    : "2",
+                            "Question"  :   {
+                                "operand1"  :   "14",
+                                "operator"  :   "+",
+                                "operand2"  :   "30"
+                            },
+                            "answer"    :   "63",
+                            "Choice"    :   [40,41,42,44]
+                        }
+
+                    ],
+                    "sub":[
+                        {
+                            "No"    : "1",
+                            "Question"  :   {
+                                "operand1"  :   "50",
+                                "operator"  :   "-",
+                                "operand2"  :   "13"
+                            },
+                            "answer"    :   "37",
+                            "Choice"    :   [37,38,39,40]
+                        },
+                        {
+                            "No"    : "2",
+                            "Question"  :   {
+                                "operand1"  :   "25",
+                                "operator"  :   "-",
+                                "operand2"  :   "14"
+                            },
+                            "answer"    :   "11",
+                            "Choice"    :   [10,11,12,13]
+                        }
+                    ]
+                }
+            ],
+            "level2":[
+                {
+                    "add":[
+                        {
+                            "No"    : "1",
+                            "Question"  :   {
+                                "operand1"  :   "14",
+                                "operator"  :   "+",
+                                "operand2"  :   "50"
+                            },
+                            "answer"    :   "63",
+                            "Choice"    :   [60,61,62,64]
+                        },
+                        {
+                            "No"    : "2",
+                            "Question"  :   {
+                                "operand1"  :   "15",
+                                "operator"  :   "+",
+                                "operand2"  :   "30"
+                            },
+                            "answer"    :   "63",
+                            "Choice"    :   [40,41,42,45]
+                        }
+
+                    ],
+                    "sub":[
+                        {
+                            "No"    : "3",
+                            "Question"  :   {
+                                "operand1"  :   "50",
+                                "operator"  :   "-",
+                                "operand2"  :   "13"
+                            },
+                            "answer"    :   "37",
+                            "Choice"    :   [37,38,39,40]
+                        },
+                        {
+                            "No"    : "4",
+                            "Question"  :   {
+                                "operand1"  :   "25",
+                                "operator"  :   "-",
+                                "operand2"  :   "14"
+                            },
+                            "answer"    :   "11",
+                            "Choice"    :   [10,11,12,13]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "commet":[
+        {   "message" : "สวัสดี ลูกของท่านเรียนเก่งเป็นเด็กดี",
+            "sender": {
+                "id" : "T1",
+                "name" : "คุณครูอังศุมาลิน"
+            },
+            "date":12122018,
+            "time":15.30,
+            "reciever" : [
+                {"ID" : "P1","name" : "wannisa"},
+                {"ID" : "P2","name" : "thanakrit"},
+                {"ID" : "P1","name" : "wannisa"}
+            ]
+        },
+        {   "message" : "สวัสดี ลูกของชั่นเรียนเป็นอย่างไรบ้าง",
+            "sender": {
+                "id" : "P1",
+                "name" : "MMII"
+            },
+            "date":12122018,
+             "time":15.30,
+            "reciever" : [
+                {"ID" : "T1","name" : "คุณครูอังศุมาลี"}
+            ]
+        }
+
+    ]
+
+}

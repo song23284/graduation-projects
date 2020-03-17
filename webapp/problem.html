@@ -1,0 +1,471 @@
+<!doctype html>
+<html class="no-js h-100" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>โจทย์ปัญหา</title>
+  <meta name="description"
+    content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="styles/shards-dashboards.1.1.0.min.css">
+  <link rel="stylesheet" href="styles/extras.1.1.0.min.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <script data-cover src="js/lib/bootstrap-treeview.js"></script>
+</head>
+
+<body class="h-100">
+<style>
+    .h-100 {
+      font-size: 22px;
+    }
+  </style>  <div class="container-fluid">
+    <div class="row">
+      <!-- Main Sidebar -->
+      <aside class="main-sidebar col-12 col-md-3 col-lg-2 px-0">
+        <div class="main-navbar">
+          <nav class="navbar align-items-stretch navbar-light bg-white flex-md-nowrap border-bottom p-0">
+            <a class="navbar-brand w-100 mr-0" href="#" style="line-height: 25px;">
+              <div class="d-table m-auto">
+                <img id="main-logo" class="d-inline-block align-center mr-1" style="max-width: 25px;"
+                  src="images/content-management/1.jpeg" alt="Shards Dashboard">
+                <span class="d-none d-md-inline ml-1">คณิตคิดสนุกโดยหนึ่งสองหมิว</span>
+              </div>
+            </a>
+            <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none">
+              <i class="material-icons">&#xE5C4;</i>
+            </a>
+          </nav>
+        </div>
+        <div class="nav-wrapper">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.html">
+                <em class="material-icons">class</em>
+                <span>หน้าหลัก</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="classstudents.html">
+                <i class="material-icons">face</i>
+                <span>ชั้นเรียน</span>
+              </a>
+            </li>
+             
+
+            <li class="nav-item">
+              <a class="nav-link " href="profile.html">
+                <i class="material-icons">person</i>
+                <span>ข้อมูลส่วนตัว</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </aside>
+      <!-- End Main Sidebar -->
+      <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+        <div class="main-navbar sticky-top bg-white">
+          <!-- Main Navbar -->
+          <nav class="navbar align-items-stretch navbar-light flex-md-nowrap p-0">
+            <form action="#" class="main-navbar__search w-100 d-none d-md-flex d-lg-flex">
+            </form>
+            <ul class="navbar-nav border-left flex-row ">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-nowrap px-3" data-toggle="dropdown" href="#" role="button"
+                  aria-haspopup="true" aria-expanded="false">
+                  <img class="user-avatar rounded-circle mr-2" src="images/avatars/4.png" alt="User Avatar">
+                  <label id="usershow"></label>
+                </a>
+                <div class="dropdown-menu dropdown-menu-small">
+                  <a class="dropdown-item" href="profile.html">
+                    <i class="material-icons">&#xE7FD;</i> ข้อมูลส่วนตัว</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-danger" href="javascript:" onclick="logout()">
+                    <i class="material-icons text-danger">&#xE879;</i> ออกจากระบบ </a>
+                </div>
+              </li>
+            </ul>
+            <nav class="nav">
+              <a href="#" class="nav-link nav-link-icon toggle-sidebar d-md-inline d-lg-none text-center border-left"
+                data-toggle="collapse" data-target=".header-navbar" aria-expanded="false" aria-controls="header-navbar">
+                <i class="material-icons">&#xE5D2;</i>
+              </a>
+            </nav>
+          </nav>
+        </div>
+        <!-- / .main-navbar -->
+        <div class="main-content-container container-fluid px-4">
+          <!-- Page Header -->
+          <div class="page-header row no-gutters py-4">
+            <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+              <h3 class="page-title">
+                <a href="home.html"><i class="material-icons">
+                    navigate_before
+                  </i></a>โจทย์ปัญหา</h3>
+            </div>
+          </div>
+
+
+
+
+
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link text-danger " id="content-tab" data-toggle="tab" href="#content" role="tab"
+                aria-controls="content" aria-selected="true">แบบฝึกหัด</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" id="assignments-tab" data-toggle="tab" href="#assignments" role="tab"
+                aria-controls="assignments" aria-selected="false">มอบหมายงาน</a>
+            </li>
+        
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="content" role="tabpanel" aria-labelledby="content-tab">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="problemadd.html">
+                    <button type="button" class="btn btn-outline-danger">เพิ่มแบบฝึกหัด</button>
+
+                  </a>
+                </li>
+              </ul>
+
+              <div class="list-group">
+                  <label>เลือกเเบบฝึกหัด :</label>
+                <select id="level" class="form-control" style="width:40%">
+                  <option value="level1">โจทย์การบวกและการลบสองจำนวนที่ตัวตั้งและผลลัพธ์ไม่เกิน 9</option>
+                  <option value="level2">โจทย์การบวกและการลบสองจำนวนที่ตัวตั้งและผลลัพธ์ไม่เกิน 100</option>
+                  <option value="level3">โจทย์การบวกและการลบสองจำนวนที่ตัวตั้งและผลลัพธ์ไม่เกิน 1000</option>
+                  <option value="level4">โจทย์การคูณ</option>
+                  <option value="level5">โจทย์การหาร</option>
+                </select> <br> <button type="button" class="btn btn-outline-danger" style="float:right;width: 10%"
+                  onclick="sd()">ดูแบบฝึกหัด</button><br>
+                <div class="container">
+                  <h2 align="center">เเบบฝึกหัด </h2>
+                  <form id="addForm">
+
+
+                  </form>
+                  <table class="table table-dark" id="tbresult">
+
+                    <th></th>
+                    <th>Operand1</th>
+                    <th>Operandadd</th>
+                    <th>Operand2</th>
+                    <th>Choice</th>
+                    <th>Answer</th>
+                    <th></th>
+
+                    </tr>
+
+
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane" id="assignments" role="tabpanel" aria-labelledby="assignments-tab">
+
+
+              <ul class="nav justify-content-end">
+
+                <li class="nav-item">
+                  <!-- Button to Open the Modal -->
+                  <a class="nav-link active" href="#">
+                    <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#myModal">
+                      Assignments
+                    </button>
+                  </a>
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Assignments</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">current time</label>
+                          </div>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">select time</label>
+                            <select class="custom-select">
+                              <option selected disabled>Select Time</option>
+
+                              <option value="0">00:00</option>
+                              <option value="1">01:00</option>
+                              <option value="2">02:00</option>
+                              <option value="3">03:00</option>
+                              <option value="4">04:00</option>
+                              <option value="5">05:00</option>
+                              <option value="6">06:00</option>
+                              <option value="7">07:00</option>
+                              <option value="8">08:00</option>
+                              <option value="9">09:00</option>
+                              <option value="10">10:00</option>
+                              <option value="11">11:00</option>
+                              <option value="12">12:00</option>
+                              <option value="13">13:00</option>
+                              <option value="14">14:00</option>
+                              <option value="15">15:00</option>
+                              <option value="16">16:00</option>
+                              <option value="17">17:00</option>
+                              <option value="18">18:00</option>
+                              <option value="19">19:00</option>
+                              <option value="20">20:00</option>
+                              <option value="21">21:00</option>
+                              <option value="22">22:00</option>
+                              <option value="23">23:00</option>
+                            </select>
+                          </div>
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+              </ul>
+
+              <div class="list-group">
+
+
+
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">section 1</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">section 2</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">section 3</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">section 4</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                    <label class="custom-control-label" for="customCheck5">section 5</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                    <label class="custom-control-label" for="customCheck6">section 6</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                    <label class="custom-control-label" for="customCheck7">section 7</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                    <label class="custom-control-label" for="customCheck8">section 8</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck9">
+                    <label class="custom-control-label" for="customCheck9">section 9</label>
+                  </div>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck10">
+                    <label class="custom-control-label" for="customCheck10">section 10</label>
+                  </div>
+                </button>
+
+                <script>
+                  $('.your-checkbox').prop('indeterminate', true)
+                </script>
+              </div>
+
+
+
+
+
+
+            </div>
+            <div class="tab-pane" id="progress" role="tabpanel" aria-labelledby="progress-tab">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link text-danger" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Test Exercise
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <input type="hidden" id="id" value="problem">
+                      <div id="columnchart_material" style="width: 1500px; height: 1000px;"></div>
+
+
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-danger" type="button" data-toggle="collapse"
+                          data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Select Exercise
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit,
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-danger" type="button" data-toggle="collapse"
+                          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Daily Exercise
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terr
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <script>
+
+                  $('#myCollapsible').on('hidden.bs.collapse', function () {
+                    // do something…
+                  })            </script>
+
+
+
+
+              </div>
+
+            </div>
+
+
+            <script>
+
+              $('#someTab').tab('show')
+              $('#myTab a').on('click', function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+              })
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- End Page Header -->
+            <!-- Small Stats Blocks -->
+            <!-- End Small Stats Blocks -->
+          </div>
+          <footer class="main-footer d-flex p-2 px-3 bg-white border-top">
+            <span class="copyright ml-auto my-auto mr-2"> © 2018
+            </span>
+          </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+  <script src="https://unpkg.com/shards-ui@latest/dist/js/shards.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sharrre/2.0.1/jquery.sharrre.min.js"></script>
+  <script src="scripts/extras.1.1.0.min.js"></script>
+  <script src="scripts/shards-dashboards.1.1.0.min.js"></script>
+  <script src="scripts/app/app-blog-overview.1.1.0.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBOGusn13X2Pe6BlKjy7-xy0PkdnUyoGFM",
+      authDomain: "mathapp-128.firebaseapp.com",
+      databaseURL: "https://mathapp-128.firebaseio.com",
+      projectId: "mathapp-128",
+      storageBucket: "mathapp-128.appspot.com",
+      messagingSenderId: "454621296943"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="prob.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="chart.js"></script>
+</body>
+
+</html>

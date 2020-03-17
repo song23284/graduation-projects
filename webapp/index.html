@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <!-- จาก git -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+    <link rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
+
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--===============================================================================================-->
+
+</head>
+
+<body>
+
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrapp">
+                <div class="wrap-login100">
+                    <div class="login100-pic js-tilt" data-tilt>
+                        <img src="images/img-01.png" alt="IMG">
+                    </div>
+
+                    <form class="login100-form validate-form">
+                        <span class="login100-form-title">
+                            ลงชื่อเข้าใช้
+                        </span>
+
+                        <div class="wrap-input100 validate-input" data-validate="Valid email is required">
+                            <input class="input100" type="text" placeholder="อีเมล์" id="email">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate="Password is required">
+
+                            <input class="input100" type="password" placeholder="รหัสผ่าน" id="password">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+
+                            </span>
+                            <div>
+                                &nbsp;<button class="login100-form-btn" id="login" onclick="googlelogin()" style="background-color: #dd4b39;
+                                color: white;">
+                                    ลงชื่อเข้าใช้ด้วย google</button>&nbsp;
+                                <button class="login100-form-btn btn-google" id="login" onclick="face()" style="   background-color: #3b5998;">ลงชื่อเข้าใช้ด้วย facebook
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                  
+
+
+                    <a class="txt10" href="register.html">
+                        <br>
+                       <h5>สมัครสมาชิกผู้ใช้งาน</h5>
+                       <i class="fa fa-long-arrow-right m-1-4" aria-hidden="true"></i>
+                   </a>
+             &nbsp;<button class="login100-form-btn" align="center" id="login" onclick="login() "style="width:40%;margin-left:30px;margin-top:10px;">ลงชื่อเข้าใช้</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+    <!--===============================================================================================-->
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBOGusn13X2Pe6BlKjy7-xy0PkdnUyoGFM",
+            authDomain: "mathapp-128.firebaseapp.com",
+            databaseURL: "https://mathapp-128.firebaseio.com",
+            projectId: "mathapp-128",
+            storageBucket: "mathapp-128.appspot.com",
+            messagingSenderId: "454621296943"
+        };
+        firebase.initializeApp(config);
+        var provider = new firebase.auth.FacebookAuthProvider();
+
+
+
+
+        function face() {
+            firebase.auth().signInWithPopup(provider).then(function (result) {
+                var token = result.credential.accessToken;
+
+                var user = result.user;
+                console.log(token);
+                console.log(user);
+
+            }).catch(function (error) {
+
+                var errorCode = error.code;
+                var errorMessage = error.message;
+
+                var email = error.email;
+
+                var credential = error.credential;
+                console.log(error.code);
+                console.log(error.message);
+            });
+            firebase.auth().onAuthStateChanged(function (user) {
+                if (user) {
+                    var email = user.email;
+                    window.location = 'home.html'
+                } else {
+                }
+            });
+
+        }
+        function googlelogin() {
+
+            var provider = new firebase.auth.GoogleAuthProvider();
+            firebase.auth().signInWithPopup(provider).then(function (result) {
+
+                var token = result.credential.accessToken;
+
+                var user = result.user;
+                console.log(token);
+                console.log(user);
+            }).catch(function (error) {
+
+                var errorCode = error.code;
+                var errorMessage = error.message;
+
+                var email = error.email;
+
+                var credential = error.credential;
+                console.log(error.code);
+                console.log(error.message);
+            })
+            firebase.auth().onAuthStateChanged(function (user) {
+                if (user) {
+                    var email = user.email;
+                    window.location = 'home.html'
+                } else {
+                }
+            });
+            ;
+        }   
+    </script>
+    <script src="js/index1.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/login.js"></script> -->
+
+
+
+
+
+    )
+</body>
+
+</html>

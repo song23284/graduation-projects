@@ -1,0 +1,560 @@
+{
+    "data":[
+        {
+            "counter":[
+                {
+                    "exsecsice1":[
+                        {
+                            "exsecsiceNo": "",
+                            "infoex": "",
+                            "pic": "",
+                            "answer": "",
+                            "choies":[
+                                {
+                                    "choies1": "",
+                                    "choies2": "",
+                                    "choies3": "",
+                                    "choies4": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "addition":[
+                {
+                    "choice":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": "",
+                                    "choies":[
+                                        {
+                                            "choies1": "",
+                                            "choies2": "",
+                                            "choies3": "",
+                                            "choies4": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "input":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "compare":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": "",
+                                    "trueorflase": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "subtation":[
+                {
+                    "choice":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": "",
+                                    "choies":[
+                                        {
+                                            "choies1": "",
+                                            "choies2": "",
+                                            "choies3": "",
+                                            "choies4": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "input":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "compare":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": "",
+                                    "trueorflase": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "compare":[
+                {
+                    "choice":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": "",
+                                    "choies":[
+                                        {
+                                            "choies1": "",
+                                            "choies2": "",
+                                            "choies3": "",
+                                            "choies4": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "compare":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "",
+                                    "infoex": "",
+                                    "operand1": "",
+                                    "operand2": "",
+                                    "operand3": "",
+                                    "answer": "",
+                                    "trueorflase": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "pattern":[
+                {
+                    "exsecsice1":[
+                        {
+                            "exsecsiceNo": "",
+                            "infoex": "",
+                            "picEx": "",
+                            "answer": "",
+                            "choies":[
+                                {
+                                    "choies1": "",
+                                    "choies2": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "problem":[
+                {
+                    "exsecsice1":[
+                        {
+                            "exsecsiceNo": "",
+                            "infoex": "",
+                            "operand1": "",
+                            "operand2": "",
+                            "operand3": "",
+                            "answer": "",
+                            "choies":[
+                                {
+                                    "choies1": "",
+                                    "choies2": "",
+                                    "choies3": "",
+                                    "choies4": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "class":[
+        {
+            "class1":[
+                {
+                    "classNo" : "",
+                    "studentinclass":[
+                        {
+                            "student01" : "",
+                            "student02" : "",
+                            "student03" : ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "comment":[
+        {
+            "comment1":[
+                {
+                    "commnetNo": "",
+                    "sender":[
+                        {
+                            "userID":""
+                        }
+                    ],
+                    "date": "",
+                    "time": "",
+                    "reciever":[
+                        {
+                            "userID":""
+                        }
+                    ],
+                    "heading": "",
+                    "detail": "",
+                    "reply": ""
+                }
+            ],
+            "comment2":[
+                {
+                    "commnetNo": "",
+                    "sender":[
+                        {
+                            "userID":""
+                        }
+                    ],
+                    "date": "",
+                    "time": "",
+                    "reciever":[
+                        {
+                            "userID":""
+                        }
+                    ],
+                    "heading": "",
+                    "detail": "",
+                    "reply": ""
+                }
+            ],
+            "comment3":[
+                {
+                    "commnetNo": "",
+                    "sender":[
+                        {
+                            "userID":""
+                        }
+                    ],
+                    "date": "",
+                    "time": "",
+                    "reciever":[
+                        {
+                            "userID":""
+                        }
+                    ],
+                    "heading": "",
+                    "detail": "",
+                    "reply": ""
+                }
+            ]
+        }
+    ],
+    "userID":[
+        {
+            "user1":[
+                {
+                    "userKey": "",
+                    "firstname": "",
+                    "lastname": "",
+                    "address": "",
+                    "tel": "",
+                    "email": "",
+                    "status": ""
+                }
+            ],
+            "user2":[
+                {
+                    "userKey": "",
+                    "firstname": "",
+                    "lastname": "",
+                    "address": "",
+                    "tel": "",
+                    "email": "",
+                    "status": ""
+                }
+            ],
+            "user3":[
+                {
+                    "userKey": "",
+                    "firstname": "",
+                    "lastname": "",
+                    "address": "",
+                    "tel": "",
+                    "email": "",
+                    "status": ""
+                }
+            ]
+        }
+    ],
+    "progress":[
+        {
+            "counter":[
+                {
+                    "excersice1":[
+                        {
+                            "excersiceKey": "",
+                            "userID":[
+                                {
+                                    "userID": "",
+                                    "times":[
+                                        {
+                                            "times1":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times2":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times3":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                           
+                        }
+                    ]
+                }
+            ],
+            "addition":[
+                {
+                    "excersice1":[
+                        {
+                            "excersiceKey": "",
+                            "userID":[
+                                {
+                                    "userID": "",
+                                    "times":[
+                                        {
+                                            "times1":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times2":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times3":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                           
+                        }
+                    ]
+                }
+            ],
+            "subtation":[
+                {
+                    "excersice1":[
+                        {
+                            "excersiceKey": "",
+                            "userID":[
+                                {
+                                    "userID": "",
+                                    "times":[
+                                        {
+                                            "times1":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times2":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times3":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                           
+                        }
+                    ]
+                }
+            ],
+            "compare":[
+                {
+                    "excersice1":[
+                        {
+                            "excersiceKey": "",
+                            "userID":[
+                                {
+                                    "userID": "",
+                                    "times":[
+                                        {
+                                            "times1":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times2":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times3":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                           
+                        }
+                    ]
+                }
+            ],
+            "pattern":[
+                {
+                    "excersice1":[
+                        {
+                            "excersiceKey": "",
+                            "userID":[
+                                {
+                                    "userID": "",
+                                    "times":[
+                                        {
+                                            "times1":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times2":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times3":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                           
+                        }
+                    ]
+                }
+            ],
+            "problem":[
+                {
+                    "excersice1":[
+                        {
+                            "excersiceKey": "",
+                            "userID":[
+                                {
+                                    "userID": "",
+                                    "times":[
+                                        {
+                                            "times1":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times2":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ],
+                                            "times3":[
+                                                {
+                                                    "usetime": "",
+                                                    "ans": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                           
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

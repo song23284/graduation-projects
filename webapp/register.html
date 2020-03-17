@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REGISTER</title>
+
+
+<!--===============================================================================================-->	
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+<!--===============================================================================================-->    
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+<!--===============================================================================================-->
+
+</head>
+<body>
+        <div class="limiter">
+                <div class="container-login100">
+                    <div class="wrapp">
+                    <div class="wrap-login100">
+                        <div class="login100-pic js-tilt" data-tilt>
+                            <img src="images/img-01.png" alt="IMG">
+                        </div>
+        
+                        <form class="login100-form validate-form">
+                            <span class="login100-form-title">
+                                สมัครสมาชิกผู้ใช้งาน
+                            </span>
+        
+
+                            <div class="wrap-input100 validate-input" data-validate = "Enter your Firstname">
+                                    <input class="input100" type="text" name="fname" placeholder="ชื่อ-นามสกุล" id="fname">
+                                    <span class="focus-input100"></span>
+                                    <span class="symbol-input100">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+
+                                <!-- <div class="wrap-input100 validate-input" data-validate = "Enter your Lastname">
+                                        <input class="input100" type="text" name="lname" placeholder="Lastname" id="lname">
+                                        <span class="focus-input100"></span>
+                                        <span class="symbol-input100">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                        </span>
+                                    </div> -->
+
+
+                            <div class="wrap-input100 validate-input" data-validate = "Valid email is required">
+                                <input class="input100" type="text" name="email" placeholder="อีเมล์" id="email">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </span>
+                            </div>
+
+                                <!-- <div class="wrap-input100 validate-input" data-validate = "Enter your level">
+                                        <select class="input100" type="text" name="level" id="level">
+                                                <option hidden>Level</option>
+                                                <option value="level1">Level 1</option>
+                                                <option value="level2">Level 2</option>
+                                                <option value="level3">Level 3</option>
+                                            </select>
+                                        <span class="focus-input100"></span>
+                                        <span class="symbol-input100">
+                                            <i class="fa fa-level-up" aria-hidden="true"></i>
+                                        </span>
+                                    </div>   -->
+
+        
+                            <div class="wrap-input100 validate-input" data-validate = "Password is required">
+                                <input class="input100" type="password" name="pass" placeholder="รหัสผ่าน" id="pass">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <!-- <div class="wrap-input100 validate-input" data-validate = "Confrim Password is required">
+                                <input class="input100" type="password" name="conpass" placeholder="Confrim Password" id="conpass">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                             -->
+                            </form>
+                               <div style="margin-left:395px">
+                                   <button class="login100-form-btn" style="margin:40px" onclick="saveData()">
+                                        สมัครสมาชิก
+                                    </button>
+                                </div>
+                            
+                            <div class="text-center p-t-136">
+                                <a class="txt2" href="index.html">
+                                    มีบัญชีผู้ใช้งานแล้ว ?
+                                    <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                    </div>
+            </div>
+                </div>
+            </div>
+
+            <!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/tilt/tilt.jquery.min.js"></script>
+        <script >
+            $('.js-tilt').tilt({
+                scale: 1.1
+            })
+        </script>
+    <!--===============================================================================================-->
+        <script src="js/register.js"></script>
+        <script src="js/main.js"></script>
+
+
+
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBksi7HDmuSi5lDGi-n4_EquVf9VHj_3m0",
+        authDomain: "test-74748.firebaseapp.com",
+        databaseURL: "https://test-74748.firebaseio.com",
+        projectId: "test-74748",
+        storageBucket: "test-74748.appspot.com",
+        messagingSenderId: "1091881538303"
+      };
+      firebase.initializeApp(config);
+    </script> -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBOGusn13X2Pe6BlKjy7-xy0PkdnUyoGFM",
+        authDomain: "mathapp-128.firebaseapp.com",
+        databaseURL: "https://mathapp-128.firebaseio.com",
+        projectId: "mathapp-128",
+        storageBucket: "mathapp-128.appspot.com",
+        messagingSenderId: "454621296943"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
+    </body>
+    </html>
