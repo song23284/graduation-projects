@@ -1,0 +1,611 @@
+{
+    "level1":{
+            "add1":[
+                {
+                    "No"    : "1",
+                    "Question"  :   {
+                        "operand1"  :   "1",
+                        "operator"  :   "+",
+                        "operand2"  :   "8"
+                    },
+                    "answer"    :   "9",
+                    "Choice"    :   [9,10,11,12]
+                },
+                {
+                    "No"    : "2",
+                    "Question"  :   {
+                        "operand1"  :   "6",
+                        "operator"  :   "+",
+                        "operand2"  :   "3"
+                    },
+                    "answer"    :   "9",
+                    "Choice"    :   [8,9,10,11]
+                },
+                {
+                    "No"    : "3",
+                    "Question"  :   {
+                        "operand1"  :   "1",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "7",
+                    "Choice"    :   [3,5,7,9]
+                },
+                {
+                    "No"    : "4",
+                    "Question"  :   {
+                        "operand1"  :   "2",
+                        "operator"  :   "+",
+                        "operand2"  :   "2"
+                    },
+                    "answer"    :   "4",
+                    "Choice"    :   [1,2,3,4]
+                },
+                {
+                    "No"    : "5",
+                    "Question"  :   {
+                        "operand1"  :   "4",
+                        "operator"  :   "+",
+                        "operand2"  :   "0"
+                    },
+                    "answer"    :   "4",
+                    "Choice"    :   [1,2,3,4]
+                },
+                {
+                    "No"    : "6",
+                    "Question"  :   {
+                        "operand1"  :   "1",
+                        "operator"  :   "+",
+                        "operand2"  :   "2"
+                    },
+                    "answer"    :   "3",
+                    "Choice"    :   [1,2,3,4]
+                },
+                {
+                    "No"    : "7",
+                    "Question"  :   {
+                        "operand1"  :   "2",
+                        "operator"  :   "+",
+                        "operand2"  :   "0"
+                    },
+                    "answer"    :   "2",
+                    "Choice"    :   [1,2,3,4]
+                },
+                {
+                    "No"    : "8",
+                    "Question"  :   {
+                        "operand1"  :   "3",
+                        "operator"  :   "+",
+                        "operand2"  :   "3"
+                    },
+                    "answer"    :   "6",
+                    "Choice"    :   [2,4,6,8]
+                },
+                {
+                 "No"    : "9",
+                    "Question"  :   {
+                        "operand1"  :   "6",
+                        "operator"  :   "+",
+                        "operand2"  :   "1"
+                    },
+                    "answer"    :   "7",
+                    "Choice"    :   [5,6,7,8]
+                },
+                {
+                    "No"    : "10",
+                    "Question"  :   {
+                        "operand1"  :   "3",
+                        "operator"  :   "+",
+                        "operand2"  :   "2"
+                    },
+                    "answer"    :   "5",
+                    "Choice"    :   [5,10,15,20]
+                },
+                {
+                    "No"    : "11",
+                    "Question"  :   {
+                        "operand1"  :   "2",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "8",
+                    "Choice"    :   [1,8,24,32]
+                },
+                {
+                    "No"    : "12",
+                    "Question"  :   {
+                        "operand1"  :   "5",
+                        "operator"  :   "+",
+                        "operand2"  :   "3"
+                    },
+                    "answer"    :   "4",
+                    "Choice"    :   [2,4,6,8]
+                },
+                {
+                    "No"    : "13",
+                    "Question"  :   {
+                        "operand1"  :   "4",
+                        "operator"  :   "+",
+                        "operand2"  :   "3"
+                    },
+                    "answer"    :   "7",
+                    "Choice"    :   [3,7,11,14]
+                },
+                {
+                    "No"    : "14",
+                    "Question"  :   {
+                        "operand1"  :   "1",
+                        "operator"  :   "+",
+                        "operand2"  :   "4"
+                    },
+                    "answer"    :   "5",
+                    "Choice"    :   [3,5,7,9]
+                },
+                {
+                    "No"    : "15",
+                    "Question"  :   {
+                        "operand1"  :   "4",
+                        "operator"  :   "+",
+                        "operand2"  :   "4"
+                    },
+                    "answer"    :   "2",
+                    "Choice"    :   [8,4,3,2]
+                },
+                {
+                    "No"    : "16",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "0"
+                    },
+                    "answer"    :   "7",
+                    "Choice"    :   [3,4,7,11]
+                },
+                {
+                "No"    : "17",
+                "Question"  :   {
+                    "operand1"  :   "2",
+                    "operator"  :   "+",
+                    "operand2"  :   "3"
+                },
+                "answer"    :   "5",
+                "Choice"    :   [5,10,15,20]
+            },
+            {
+                "No"    : "18",
+                "Question"  :   {
+                    "operand1"  :   "8",
+                    "operator"  :   "+",
+                    "operand2"  :   "0"
+                },
+                "answer"    :   "8",
+                "Choice"    :   [8,18,28,38]
+            },
+            {
+                "No"    : "19",
+                "Question"  :   {
+                    "operand1"  :   "3",
+                    "operator"  :   "+",
+                    "operand2"  :   "6"
+                },
+                "answer"    :   "9",
+                "Choice"    :   [9,19,29,39]
+            },
+            {
+                "No"    : "20",
+                "Question"  :   {
+                    "operand1"  :   "7",
+                    "operator"  :   "+",
+                    "operand2"  :   "0"
+                },
+                "answer"    :   "4",
+                "Choice"    :   [1,2,3,4]
+            },
+            {
+                "No"    : "21",
+                "Question"  :   {
+                    "operand1"  :   "7",
+                    "operator"  :   "+",
+                    "operand2"  :   "0"
+                },
+                "answer"    :   "7",
+                "Choice"    :   [7,14,17,24]
+            },
+            {
+                "No"    : "22",
+                "Question"  :   {
+                    "operand1"  :   "1",
+                    "operator"  :   "+",
+                    "operand2"  :   "4"
+                },
+                "answer"    :   "5",
+                "Choice"    :   [5,10,15,20]
+            },
+            {
+                "No"    : "23",
+                "Question"  :   {
+                    "operand1"  :   "2",
+                    "operator"  :   "+",
+                    "operand2"  :   "0"
+                },
+                "answer"    :   "2",
+                "Choice"    :   [0,2,4,6]
+            },
+            {
+                "No"    : "24",
+                "Question"  :   {
+                    "operand1"  :   "1",
+                    "operator"  :   "+",
+                    "operand2"  :   "2"
+                },
+                "answer"    :   "3",
+                "Choice"    :   [3,6,9,12]
+            },
+            {
+                "No"    : "25",
+                "Question"  :   {
+                    "operand1"  :   "7",
+                    "operator"  :   "+",
+                    "operand2"  :   "0"
+                },
+                "answer"    :   "7",
+                "Choice"    :   [3,4,7,9]
+            },
+            {
+                "No"    : "26",
+                "Question"  :   {
+                    "operand1"  :   "0",
+                    "operator"  :   "+",
+                    "operand2"  :   "3"
+                },
+                "answer"    :   "3",
+                "Choice"    :   [7,8,10,3]
+            },
+            {
+                "No"    : "27",
+                "Question"  :   {
+                    "operand1"  :   "1",
+                    "operator"  :   "+",
+                    "operand2"  :   "0"
+                },
+                "answer"    :   "0",
+                "Choice"    :   [0,1,2,3]
+            },
+            {
+                "No"    : "28",
+                "Question"  :   {
+                    "operand1"  :   "3",
+                    "operator"  :   "+",
+                    "operand2"  :   "3"
+                },
+                "answer"    :   "6",
+                "Choice"    :   [0,3,6,9]
+            },
+            {
+                "No"    : "29",
+                "Question"  :   {
+                    "operand1"  :   "7",
+                    "operator"  :   "+",
+                    "operand2"  :   "1"
+                },
+                "answer"    :   "8",
+                "Choice"    :   [6,7,8,9]
+            },
+            {
+                "No"    : "30",
+                "Question"  :   {
+                    "operand1"  :   "3",
+                    "operator"  :   "+",
+                    "operand2"  :   "4"
+                },
+                "answer"    :   "7",
+                "Choice"    :   [6,7,8,9]
+            }
+
+            ],
+            "add2":[
+                {
+                    "No"    : "1",
+                    "Question"  :   {
+                        "operand1"  :   "10",
+                        "operator"  :   "+",
+                        "operand2"  :   "0"
+                    },
+                    "answer"    :   "10",
+                    "Choice"    :   [9,10,11,12]
+                },
+                {
+                    "No"    : "2",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "1"
+                    },
+                    "answer"    :   "10",
+                    "Choice"    :   [8,9,10,11]
+                },
+                {
+                    "No"    : "3",
+                    "Question"  :   {
+                        "operand1"  :   "6",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "12",
+                    "Choice"    :   [9,10,11,12]
+                },
+                {
+                    "No"    : "4",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "9"
+                    },
+                    "answer"    :   "16",
+                    "Choice"    :   [15,16,17,18]
+                },
+                {
+                    "No"    : "5",
+                    "Question"  :   {
+                        "operand1"  :   "8",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "14",
+                    "Choice"    :   [11,12,13,14]
+                },
+                {
+                    "No"    : "6",
+                    "Question"  :   {
+                        "operand1"  :   "6",
+                        "operator"  :   "+",
+                        "operand2"  :   "9"
+                    },
+                    "answer"    :   "15",
+                    "Choice"    :   [13,14,15,16]
+                },
+                {
+                    "No"    : "7",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "9"
+                    },
+                    "answer"    :   "18",
+                    "Choice"    :   [17,18,19,20]
+                },
+                {
+                    "No"    : "8",
+                    "Question"  :   {
+                        "operand1"  :   "8",
+                        "operator"  :   "+",
+                        "operand2"  :   "7"
+                    },
+                    "answer"    :   "15",
+                    "Choice"    :   [12,13,14,15]
+                },
+                {
+                 "No"    : "9",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "8"
+                    },
+                    "answer"    :   "17",
+                    "Choice"    :   [15,16,17,18]
+                },
+                {
+                    "No"    : "10",
+                    "Question"  :   {
+                        "operand1"  :   "5",
+                        "operator"  :   "+",
+                        "operand2"  :   "8"
+                    },
+                    "answer"    :   "13",
+                    "Choice"    :   [5,13,15,20]
+                },
+                {
+                    "No"    : "11",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "8"
+                    },
+                    "answer"    :   "15",
+                    "Choice"    :   [10,15,24,23]
+                },
+                {
+                    "No"    : "12",
+                    "Question"  :   {
+                        "operand1"  :   "6",
+                        "operator"  :   "+",
+                        "operand2"  :   "8"
+                    },
+                    "answer"    :   "14",
+                    "Choice"    :   [12,14,16,18]
+                },
+                {
+                    "No"    : "13",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "2"
+                    },
+                    "answer"    :   "11",
+                    "Choice"    :   [3,7,11,14]
+                },
+                {
+                    "No"    : "14",
+                    "Question"  :   {
+                        "operand1"  :   "6",
+                        "operator"  :   "+",
+                        "operand2"  :   "5"
+                    },
+                    "answer"    :   "11",
+                    "Choice"    :   [11,15,17,19]
+                },
+                {
+                    "No"    : "15",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "4"
+                    },
+                    "answer"    :   "13",
+                    "Choice"    :   [18,14,13,12]
+                },
+                {
+                    "No"    : "16",
+                    "Question"  :   {
+                        "operand1"  :   "5",
+                        "operator"  :   "+",
+                        "operand2"  :   "9"
+                    },
+                    "answer"    :   "14",
+                    "Choice"    :   [14,24,34,44]
+                },
+                {
+                    "No"    : "17",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "4"
+                    },
+                    "answer"    :   "13",
+                    "Choice"    :   [10,11,12,13]
+                },
+                {
+                    "No"    : "18",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "13",
+                    "Choice"    :   [24,23,14,13]
+                },
+                {
+                    "No"    : "19",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "9"
+                    },
+                    "answer"    :   "18",
+                    "Choice"    :   [8,18,28,38]
+                },
+                {
+                    "No"    : "20",
+                    "Question"  :   {
+                        "operand1"  :   "8",
+                        "operator"  :   "+",
+                        "operand2"  :   "9"
+                    },
+                    "answer"    :   "17",
+                    "Choice"    :   [15,16,17,18]
+                },
+                {
+                    "No"    : "21",
+                    "Question"  :   {
+                        "operand1"  :   "8",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "14",
+                    "Choice"    :   [13,14,15,16]
+                },
+                {
+                    "No"    : "22",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "2"
+                    },
+                    "answer"    :   "11",
+                    "Choice"    :   [8,9,10,11]
+                },
+                {
+                    "No"    : "23",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "7"
+                    },
+                    "answer"    :   "14",
+                    "Choice"    :   [12,13,14,15]
+                },
+                {
+                    "No"    : "24",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "13",
+                    "Choice"    :   [13,23,33,43]
+                },
+                {
+                    "No"    : "25",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "5"
+                    },
+                    "answer"    :   "12",
+                    "Choice"    :   [10,11,12,13]
+                },
+                {
+                    "No"    : "26",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "2"
+                    },
+                    "answer"    :   "11",
+                    "Choice"    :   [8,9,10,11]
+                },
+                {
+                    "No"    : "27",
+                    "Question"  :   {
+                        "operand1"  :   "8",
+                        "operator"  :   "+",
+                        "operand2"  :   "6"
+                    },
+                    "answer"    :   "14",
+                    "Choice"    :   [4,14,24,34]
+                },
+                {
+                    "No"    : "28",
+                    "Question"  :   {
+                        "operand1"  :   "8",
+                        "operator"  :   "+",
+                        "operand2"  :   "9"
+                    },
+                    "answer"    :   "17",
+                    "Choice"    :   [14,15,16,17]
+                },
+                {
+                    "No"    : "29",
+                    "Question"  :   {
+                        "operand1"  :   "9",
+                        "operator"  :   "+",
+                        "operand2"  :   "1"
+                    },
+                    "answer"    :   "10",
+                    "Choice"    :   [10,20,30,40]
+                },
+                {
+                    "No"    : "30",
+                    "Question"  :   {
+                        "operand1"  :   "7",
+                        "operator"  :   "+",
+                        "operand2"  :   "5"
+                    },
+                    "answer"    :   "12",
+                    "Choice"    :   [11,12,13,14]
+                }
+
+            ]
+        }
+    
+}

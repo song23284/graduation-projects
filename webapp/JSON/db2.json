@@ -1,0 +1,243 @@
+{
+    "exercise":[
+        {
+            "addition":[
+                {
+                    "choice":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "1",
+                                    "infoex": "จงหาผลลัพธ์",
+                                    "Question" :{      "operand1": "9",
+                                                        "operator": "+",
+                                                        "operand3": "6"},
+                                    "answer": "15",
+                                    "choies":[11,13,15,17],
+                                    "type":"บวกเลขต่ำกว่า 20"
+
+                                },
+                                {
+                                    "exsecsiceNo": "2",
+                                    "infoex": "จงหาผลลัพธ์",
+                                    "Question" :{      "operand1": "7",
+                                                        "operator": "+",
+                                                        "operand3": "3"},
+                                    "answer": "10",
+                                    "choies":[10,12,14,16],
+                                    "type":"บวกเลขต่ำกว่า 20"
+                                }
+                            ]
+                        }
+                    ],
+                    "input":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "1",
+                                    "infoex": "จงเติมคำตอบที่ถูกต้อง",
+                                    "Question" :{       "operand1": "9",
+                                                        "operator": "+",
+                                                        "operand3": "6"},
+                                    "answer": "15",
+                                    "type":"บวกเลขต่ำกว่า 20"
+                                },
+                                {
+                                    "exsecsiceNo": "2",
+                                    "infoex": "จงเติมคำตอบที่ถูกต้อง",
+                                    "Question" :{       "operand1": "4",
+                                                        "operator": "+",
+                                                        "operand3": "5"},
+                                    "answer": "9",
+                                    "type":"บวกเลขต่ำกว่า 20"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "subtation":[
+                {
+                    "choice":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "1",
+                                    "infoex": "จงหาผลลัพธ์",
+                                    "Question" :{       "operand1": "9",
+                                                        "operator": "-",
+                                                        "operand3": "5"},
+                                    "answer": "4",
+                                    "choies":[1,2,3,4],
+                                    "type":"ลบเลขไม่เกิน 10"
+                                },
+                                {
+                                    "exsecsiceNo": "2",
+                                    "infoex": "จงหาผลลัพธ์",
+                                    "Question" :{       "operand1": "10",
+                                                        "operator": "-",
+                                                        "operand3": "5"},
+                                    "answer": "5",
+                                    "choies":[5,10,15,20],
+                                    "type":"ลบเลขไม่เกิน 10"
+                                }
+                            ]
+                        }
+                    ],
+                    "input":[
+                        {
+                            "exsecsiceNo": "1",
+                            "infoex": "จงเติมคำตอบที่ถูกต้อง",
+                            "Question" :{       "operand1": "9",
+                                                "operator": "-",
+                                                "operand3": "6"},
+                            "answer": "3",
+                            "type":"ลบเลขต่ำกว่า 10"
+                        },
+                        {
+                            "exsecsiceNo": "2",
+                            "infoex": "จงเติมคำตอบที่ถูกต้อง",
+                            "Question" :{       "operand1": "5",
+                                                "operator": "-",
+                                                "operand3": "5"},
+                            "answer": "0",
+                            "type":"ลบเลขต่ำกว่า 10"
+                        }
+                    ]
+                }
+            ],
+            "compare":[
+                {
+                    "choice":[
+                        {
+                            "exsecsice1":[
+                                {
+                                    "exsecsiceNo": "1",
+                                    "infoex": "จงเปรียบเทียบข้อต่อไปนี้",
+                                    "Question" :{       "operand1": "9",
+                                                        "operator": "",
+                                                        "operand3": "5"},
+                                    "answer": ">",
+                                    "choies":[">","<","=","≠"],
+                                    "type":"เปรียเทียบไม่เกิน 10"
+                                },
+                                {
+                                    "exsecsiceNo": "2",
+                                    "infoex": "จงเปรียบเทียบข้อต่อไปนี้",
+                                    "Question" :{       "operand1": "9",
+                                                        "operator": "",
+                                                        "operand3": "16"},
+                                    "answer": "<",
+                                    "choies":[">","<","=","≠"],
+                                    "type":"เปรียเทียบไม่เกิน 10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "problem":[
+                {
+                    "exsecsice1":[
+                        {
+                            "exsecsiceNo": "1",
+                            "infoex": "นกมีมะม่วง  3  ผล  ซื้อมาอีก  4  ผล  นกมีมะม่วงทั้งหมดกี่ผล",
+                            "answer": "7",
+                            "choies":[1,3,4,7],
+                            "type":"บวก" 
+                            
+                        },
+                        {
+                            "exsecsiceNo": "2",
+                            "infoex": "พิชัยมีหนังสือ  2  เล่ม  น้องมีหนังสือ  3  เล่ม  พิชัยและน้องมีหนังสือรวมกันกี่เล่ม",
+                            "answer": "5",
+                            "choies":[1,3,5,7],
+                            "type":"บวก" 
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "class":[
+        {
+            "ID":"ST1",
+            "Firstname":"wannisa",
+            "promboot":"Promboot"
+        },
+        {
+            "ID":"ST2",
+            "Firstname":"nnnnnn",
+            "promboot":"mmmmmm"
+        }
+
+    ],
+      
+    "userID":[
+        {
+            "user1":[
+                {
+                    "userID": "1",
+                    "firstname": "wannisa",
+                    "lastname": "promboot",
+                    "email": "wannisa@test.com",
+                    "status": "student"
+                }
+            ],
+            "user2":[
+                {
+                    "userID": "2",
+                    "firstname": "kkkkk",
+                    "lastname": "ppp",
+                    "email": "ppp@test.com",
+                    "status": "teacher"
+                }
+            ],
+            "user3":[
+                {
+                    "userID": "3",
+                    "firstname": "pp",
+                    "lastname": "iii",
+                    "email": "i@test.com",
+                    "status": "parent"
+                }
+            ]
+        }
+    ],
+    "comment":[
+        {
+            "comment1":[
+                {   "message" : "สวัสดี ลูกของท่านเรียนเก่งเป็นเด็กดี",
+                    "sender": {
+                        "id" : "T1",
+                        "name" : "คุณครูอังศุมาลิน"
+                    },
+                    "date":12122018,
+                    "time":15.30,
+                        "reciever" : [
+                        {"ID" : "P1","name" : "wannisa"},
+                        {"ID" : "P2","name" : "thanakrit"},
+                        {"ID" : "P1","name" : "wannisa"}
+                    ]
+                }
+            
+            ],
+            "comment2":[
+                {   "message" : "สวัสดี ลูกของชั่นเรียนเป็นอย่างไรบ้าง",
+                    "sender": {
+                        "id" : "P1",
+                        "name" : "MMII"
+                    },
+                    "date":12122018,
+                     "time":15.30,
+                    "reciever" : [
+                        {"ID" : "T1","name" : "คุณครูอังศุมาลี"}
+                    ]
+                }
+            
+            ]
+        }
+
+    ]
+    
+}

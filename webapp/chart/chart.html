@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    
+
+
+    <script>
+        window.onload = function () {
+        
+            var chart = new CanvasJS.Chart("chartContainer", {
+          animationEnabled: true,
+          title: {
+            text: "คะแนนเฉลี่ยของแบบฝึกหัดทั้งหมด"
+          },
+          axisY: {
+            title: "คะแนนเฉลี่ยของนักเรียนทั้งหมด",
+            suffix: "",
+            maximum: 15,
+            includeZero: false
+          },
+          axisX: {
+            title: "Countries"
+          },
+          data: [{
+            type: "column",
+            dataPoints: [
+              { label: "แบบฝึกหัดที่ 1", y: 20 },	
+              { label: "แบบฝึกหัดที่ 2", y: 12.09 },	
+              { label: "แบบฝึกหัดที่ 3", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 4", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 5", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 6", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 7", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 8", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 9", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 10", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 11", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 12", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 13", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 14", y: 10.09 },	
+              { label: "แบบฝึกหัดที่ 15", y: 1.09 },	
+
+            ]
+          }]
+        });
+chart.render();
+        
+        }
+        </script>
+</body>
+</html>
+
+
